@@ -17,3 +17,9 @@ body {
   background: linear-gradient(180deg, #3C805D 0%, #6BE6A8 100%);
   background-blend-mode: darken;
 }
+
+.cercle-background {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" fill="%236BE6A8"><rect width="1000" height="100" fill="%236BE6A8"/><path d="M0 100v4s250 96 500 96 500-96 500-96V100H0Z" fill="%236BE6A8"></path></svg>');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}

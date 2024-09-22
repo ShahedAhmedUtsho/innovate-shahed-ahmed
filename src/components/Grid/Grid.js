@@ -3,15 +3,8 @@ import React from 'react';
 const Grid = () => {
     return (
         <div >
-           
-        <div className='min-h-[700px] w-full  relative overflow-hidden flex flex-col items-center justify-center'>
-
-           <div className='h-[100vw] -mt-[100vw] w-[150vw] -z-40 rounded-b-[150%] bg-[#6BE6A8]'>
-
-           </div>
-           
-        </div>
-        <div className=' w-full   h-[700px] -mt-[44vw] z-50  flex lg:flex-row flex-col   '>
+       
+        <div className=' w-full   h-[700px]  z-50  flex lg:flex-row flex-col  cercle-background ' >
 
 
 
