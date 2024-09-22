@@ -61,7 +61,7 @@ const Items = () => {
             <ul className=' text-white hidden lg:flex w-full lg:gap-[6vw] h-full items-center'>
                 {
                     navItems.map((item, index) => {
-                        return (<li className='NavItem capitalize text-base justify-center items-center flex gap-2 '>{item.title}  <ChevronDown size={16} />  </li>)
+                        return (<li key={index} className='NavItem capitalize text-base justify-center items-center flex gap-2 '>{item.title}  <ChevronDown size={16} />  </li>)
                     })
                 }
             </ul>

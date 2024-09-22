@@ -10,3 +10,10 @@ body {
   background: var(--background);
   font-family: "Inter", sans-serif;
 }
+
+/* // css for hero 
+ */
+.hero-bottom {
+  background: linear-gradient(180deg, #3C805D 0%, #6BE6A8 100%);
+  background-blend-mode: darken;
+}
